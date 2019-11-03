@@ -49,12 +49,11 @@ header#cabecalho h1 {
 }
 
 header#cabecalho h2 {
-    font-family: font-family: 'Titillium Web', sans-serif;
+    font-family:'Titillium Web', sans-serif;
     color: #888888;
     font-size: 15pt;
     padding: 0px;
     margin-top: 0px;
-
 }
 
 div#interface {
@@ -106,12 +105,12 @@ nav#menu ul {
     text-transform: uppercase;
     position: absolute;
     top: -20px;
-    left: 400px;
+    left: 480px;
 }
 
 nav#menu li {
     display: inline-block;
-    background-color: #c1b4b4;
+    background-color: #CFCFCF;
     padding: 10px;
     margin: 2px;
     border-radius: 5px;
@@ -224,6 +223,7 @@ aside#lateral {
     display: block;
     width: 350px;
     float: right;
+    margin-top: 8pt;
     background-color: #dddddd;
     padding: 10px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
