@@ -31,6 +31,13 @@ p {
      top: 70px;
  }
 
+@media only screen and (min-width: 1920px) {
+header#cabecalho img#icone  {
+     left: 1200px;
+     top: 70px;
+    }
+}
+
  header#cabecalho {
      border-bottom: 1px #606060 solid;
      height: 150px;
@@ -106,6 +113,14 @@ nav#menu ul {
     position: absolute;
     top: -20px;
     left: 480px;
+}
+
+/* Responsivo */
+@media only screen and (min-width: 1920px) {
+nav#menu ul  {
+    top: -20px;
+    left: 700px;
+    }
 }
 
 nav#menu li {
